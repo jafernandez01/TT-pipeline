@@ -1,5 +1,3 @@
 # project
 
-Hello
-
-Chau--*
+**Hello world**
