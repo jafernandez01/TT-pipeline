@@ -21,7 +21,7 @@ The main outcome of this code should be a .csv file with three columns:
    - A second and third columns with the calculated HTT and DTT respectively.
  
 ## 4. Sketch
-<img src="project_sketch.jpg" alt="sketch_image" width="600"/>
+<p align="center"><img src="project_sketch.jpg" alt="sketch_image" width="600"/></p>
 
 ## 5. References
 
