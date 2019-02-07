@@ -8,11 +8,14 @@
 
 Calculations of growing degree days (GDD) are important in models simulating crop growth. The most widely used approach, and often precise, is assuming a linear relationship on the rate with the temperature above a base temperature. It calculates the DTT (daily thermal time) using the average daily value. A second method propose considering the alternation of diurnal and nightly temperatures by using the HTT (hourly thermal time). So far, for grain filling in maize it has not been thoroughly studied whether there is an improvement in models accuracy between these approaches.
 
-I hope that this code will help me save time when searching for thermal time units (instead of doing it manually) for past and future experiments. In addition, in the future I might be able to quickly retrieve data on multiple weather stations to extend my analysis to other locations through modelling.
+I hope that this code will help me save time when searching for thermal time units (instead of doing it manually) for past and future experiments. The function will be used to retrieve GDD information from Ashland Bottoms Mesonet Station for 2017 and 2018 summer crop seasons. Specifically, it will be used during corn grain filling months, from June to September. In addition, in the future I might be able to quickly obtain data on multiple weather stations to extend my analysis to other locations through modelling.
+
 
 ## 2. Objective
 
-The objective is to create a code that can determine and calculate the HTT (Hourly Thermal Time) and DTT (Daily Thermal Time) using Kansas Mesonet database for grain filling samples when flowering and sampling date is given by each data point.
+The objective is to create a code that can determine and calculate the HTT (Hourly Thermal Time) and DTT (Daily Thermal Time) using Kansas Mesonet database for grain filling samples. Periods of time for HTT and DTT calculations will be between a flowering date (starting point) and a sampling date for each data point.
+
+Moreover, the code will allow the user to choose a minimum and maximum cardinal temperatures for calculations on HTT and DTT. This will be useful to evaluate and compare different base temperatures for grain filling.
 
 ## 3. Outcomes:
 
