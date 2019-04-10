@@ -33,3 +33,5 @@ The main outcome of this code should be a .csv file with three columns:
 2. McMaster, G. S., & Wilhelm, W. W. (1997). Growing degree-days: one equation, two interpretations. Agricultural and forest meteorology, 87(4), 291-300.
 
 3. Zhou, G., & Wang, Q. (2018). A new nonlinear method for calculating growing degree days. Scientific reports, 8(1), 10149.
+
+4. Kansas Mesonet, 2017: Kansas Mesonet Historical Data. Accessed 10 April 2019, http://mesonet.k-state.edu/weather/historical
