@@ -10,17 +10,17 @@ Calculations of growing degree days (GDD) are important in models simulating cro
 
 - The most widely used approach, and often precise, is assuming a linear relationship on the rate with the temperature above a base temperature. It calculates the DTT (daily thermal time) using the average daily value.
 
-<p align="center"><img src="https://raw.githubusercontent.com/jafernandez01/project/master/Data/linear_graph.jpg" alt="linear_graph" width="200"/></p>
+    <p align="center"><img src="https://raw.githubusercontent.com/jafernandez01/project/master/Data/linear_graph.jpg" alt="linear_graph" width="400"/></p>
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=DTT&space;=&space;T_{avg}&space;-&space;T_{base}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?DTT&space;=&space;T_{avg}&space;-&space;T_{base}" title="DTT = T_{avg} - T_{base}" /></a>
+    <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=DTT&space;=&space;T_{avg}&space;-&space;T_{base}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?DTT&space;=&space;T_{avg}&space;-&space;T_{base}" title="DTT = T_{avg} - T_{base}" /></a></p>
 
 - A second method propose considering the alternation of diurnal and nightly temperatures by using the HTT (hourly thermal time). 
 
-    <a href="https://www.codecogs.com/eqnedit.php?latex=DTT&space;=&space;\left&space;(&space;\sum_{1}^{24}&space;HTT_{i}\right&space;)&space;/&space;24" target="_blank"><img src="https://latex.codecogs.com/svg.latex?DTT&space;=&space;\left&space;(&space;\sum_{1}^{24}&space;HTT_{i}\right&space;)&space;/&space;24" title="DTT = \left ( \sum_{1}^{24} HTT_{i}\right ) / 24" /></a>
+    <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=DTT&space;=&space;\left&space;(&space;\sum_{1}^{24}&space;HTT_{i}\right&space;)&space;/&space;24" target="_blank"><img src="https://latex.codecogs.com/svg.latex?DTT&space;=&space;\left&space;(&space;\sum_{1}^{24}&space;HTT_{i}\right&space;)&space;/&space;24" title="DTT = \left ( \sum_{1}^{24} HTT_{i}\right ) / 24" /></a></p>
 
     where,
 
-    <a href="https://www.codecogs.com/eqnedit.php?latex=HTT_{i}&space;=&space;T_{i}&space;-&space;T_{base}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?HTT_{i}&space;=&space;T_{i}&space;-&space;T_{base}" title="HTT_{i} = T_{i} - T_{base}" /></a>
+    <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=HTT_{i}&space;=&space;T_{i}&space;-&space;T_{base}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?HTT_{i}&space;=&space;T_{i}&space;-&space;T_{base}" title="HTT_{i} = T_{i} - T_{base}" /></a></p>
 
 So far, for grain filling in maize it has not been thoroughly studied whether there is an improvement in models accuracy between these approaches.
 
